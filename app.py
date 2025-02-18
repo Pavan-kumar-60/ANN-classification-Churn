@@ -6,7 +6,7 @@ import pickle
 import streamlit as st
 
 # loading ANN model
-model = load_model('model.keras')
+model = load_model('model.h5')
 
 # loading all the neccessary transformations
 with open('label_encoder_gen.pkl', 'rb') as file:
